@@ -306,7 +306,7 @@ margin-bottom: 15px;
 .contact-item i {
     width: 40px;
     height: 40px;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: white;
     border-radius: 50%;
     display: flex;
@@ -558,4 +558,12 @@ margin-bottom: 15px;
 }
 #publication {
   padding-top: 0px;  /* Or less, like 20px */
+}
+#contact{
+     background-color: var(--primary-color);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.418); /* You can change thickness */
+}
+
+#love{
+    color: white;
 }
